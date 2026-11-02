@@ -34,7 +34,7 @@
     vows: { text: 'Walk through the 7 sacred vows (Saptapadi) with Abhishek & Priya step by step 🔥', scroll: '#seven-pheras', scrollLabel: 'Start Sacred Vows' },
     music: { text: 'Tap the golden "🎵 Play Music" button at the bottom-right corner to play the wedding song 🎶' },
     thanks: { text: 'You are most welcome! 😊 We eagerly await your blessings and gracious presence 🙏' },
-    hi: { text: 'Namaste 🙏 I am the wedding helper for ' + CONFIG.coupleNames + '. Ask me about the schedule, venue, family, photo booth, or tap a button below.' }
+    hi: { text: 'Jai Shree Shyam 🙏 I am the wedding helper for ' + CONFIG.coupleNames + '. Ask me about the schedule, venue, family, photo booth, or tap a button below.' }
   };
 
   function countdownAnswer() {
