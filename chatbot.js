@@ -5,9 +5,9 @@
   // ====== EDIT THESE ======
   const CONFIG = {
     coupleNames: 'Abhishek & Priya',
-    whatsappNumber: '8094073911',          // e.g. '919876543210' (country code + number, no + or spaces). Leave '' to hide.
+    whatsappNumber: '+918094073911',          // e.g. '919876543210' (country code + number, no + or spaces). Leave '' to hide.
           // e.g. '919876543210' (country code + number, no + or spaces). Leave '' to hide.
-    phoneNumber: '7014457411',             // e.g. '+919876543210'. Leave '' to hide.
+    phoneNumber: '+917014457411',             // e.g. '+919876543210'. Leave '' to hide.
     weddingDate: new Date('November 25, 2026 20:00:00'),
     mapSangeetHaldi: 'https://www.google.com/maps/search/?api=1&query=Vinay+Vaatika+Bhatta+Colony+Hanumangarh+Rajasthan+335512',
     mapWedding: 'https://www.google.com/maps/place/?q=place_id:ChIJL5n6b1DzFjkRBq65AoYZm3I'
@@ -56,7 +56,7 @@
 
   // keyword -> answer (English + Hinglish)
   const RULES = [
-    [/\b(hi|hello|hey|namaste|namaskar|pranam|good|Jai KahtuShyam Ki (morning|evening))\b/, () => A.hi],
+    [/\b(hi|hello|hey|namaste|namaskar|pranam|good|Sita Ram (morning|evening))\b/, () => A.hi],
     [/(thank|thanks|shukriya|dhanyavad|dhanyawad)/, () => A.thanks],
     [/(countdown|days left|kitne din|kitna time|how long|how many days|baki)/, countdownAnswer],
     [/(schedule|event|function|program|ceremony|sangeet|haldi|time|kab|kitne baje|timing|date|tarikh|when)/, () => A.events],
